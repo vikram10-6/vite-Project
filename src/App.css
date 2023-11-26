@@ -1,0 +1,262 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+* {
+  
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  /* background-color: rgb(182, 213, 230); */
+  padding-bottom: 0;
+  margin: 0;
+  padding: 30px 7%;
+}
+
+nav {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.lefth h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.lefth strong {
+  color: #E85356;
+}
+
+.lefth p {
+  margin: 0;
+  font-size: 18px;
+  margin-top: -13px;
+  margin-left: 2px;
+}
+
+.hright ul {
+  display: flex;
+  list-style: none;
+  margin: 15px;
+  padding: 25px;
+}
+
+.hright ul li {
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.hright ul li a {
+  
+  border-radius: 50%;
+  padding: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.hright ul li a:hover {
+  color: white;
+  background-color: #E85356;
+}
+
+main {
+  background-image: url(bgkataklim.jpg);
+  padding: 10px;
+  width: 100%;
+}
+
+main img {
+  position: relative;
+  margin-left: 40px;
+}
+
+.kata_center {
+  margin: 10px;
+  padding: 10px;
+}
+
+.welcome {
+  display: flex;
+}
+
+.welcome strong {
+  color: #E85356;
+}
+
+.welcome h2 {
+  text-align: center;
+  width: 35%;
+  color: white;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.vert {
+  border-left: 1px solid #454545;
+}
+
+.welcome a {
+  color: #E85356;
+  text-decoration: none;
+}
+
+.welcome p {
+  color: #7C7C7C;
+  margin: 0 20px;
+}
+
+.boxes {
+  background-color: black;
+  padding-top: 20px;
+  justify-content: space-evenly;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+
+  width: 24%
+}
+
+.box h2 {
+  color: white;
+}
+
+.box h4 {
+  margin: 5px;
+  color: white;
+}
+
+.box p {
+  margin: 5px;
+  color: #7C7C7C;
+}
+
+.box a{
+  display: inline-block;
+  background-color: #E85356;
+  margin: 5px;
+  padding: 10px 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.end{
+  background-image: url(bgkataklim.jpg);
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+.end h2{
+  color: white;
+  font-size: 30px;
+ 
+}
+.shortly{
+  width: 45%;
+}
+.latest{
+
+  width: 45%;
+}   
+.img{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img img{
+  margin: 5px;
+  width: 23%;
+}
+.deuce{
+  display: flex;
+ 
+}
+.deuce .uno{
+  width: 50%;
+}
+.uno .p{
+  color: white;
+}
+.uno p{
+  color:#7C7C7C;
+}
+.list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.list ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list ul li{
+  margin: 5px;
+}
+.list ul li a{
+  text-decoration: none;
+  color: #E85356;
+}
+hr{
+  color: #454545;
+}
+footer{
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
